@@ -6,6 +6,7 @@ node_modules/
 .ipynb_checkpoints
 *.tsbuildinfo
 
+
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 
@@ -114,3 +115,10 @@ dmypy.json
 # jupyterlite
 *.doit.db
 _output
+
+# Custom ignore for this project
+.venv
+*.db
+*.sqlite
+*.sqlite3
+vm_app/
